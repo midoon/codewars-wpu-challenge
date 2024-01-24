@@ -8,5 +8,6 @@ import (
 
 func main() {
 	// fmt.Println(kata.Multiple3And5(10))
-	fmt.Println(kata.PrinterError("aaammm"))
+	// fmt.Println(kata.PrinterError("aaammm"))
+	fmt.Println(kata.Rot13("am nz"))
 }
