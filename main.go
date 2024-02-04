@@ -16,5 +16,6 @@ func main() {
 	// fmt.Println(kata.RGB(0, 0, 0))
 	// fmt.Println(kata.Snail([][]int{{}}))
 	// fmt.Println(kata.DeadAntCount("ant anantt aantnt"))
-	fmt.Println(kata.SpinWords("Hey fellow warriors"))
+	// fmt.Println(kata.SpinWords("Hey fellow warriors"))
+	fmt.Println(kata.CountFindNum([]int{2, 5}, 200))
 }
