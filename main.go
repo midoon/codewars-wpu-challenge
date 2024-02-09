@@ -17,5 +17,6 @@ func main() {
 	// fmt.Println(kata.Snail([][]int{{}}))
 	// fmt.Println(kata.DeadAntCount("ant anantt aantnt"))
 	// fmt.Println(kata.SpinWords("Hey fellow warriors"))
-	fmt.Println(kata.CountFindNum([]int{2, 5}, 200))
+	// fmt.Println(kata.CountFindNum([]int{2, 5}, 200))
+	fmt.Println(kata.IsValidWalk([]rune{'e', 'e', 'e', 'e', 'w', 'w', 's', 's', 's', 's'}))
 }
