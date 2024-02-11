@@ -79,3 +79,18 @@ func AlphabetWar(fight string) string {
 // how to solve? bagaimana cara solve 1 char yang dihimpit 2 airstrike
 
 //
+
+// func AlphabetWar(fight string) string {
+//   m := map[byte]int{'w':-4,'p':-3,'b':-2,'s':-1,'m':4,'q':3,'d':2,'z':1}
+//   score := 0
+//   b := []byte(fight)
+//   for i:= range b {
+//     score += m[ b[i] ]
+//     if b[i] != '*' {continue}
+//     if i-1>=0 { score -= m[b[i-1]];}
+//     if i+1<len(b) && b[i+1]!='*' { b[i+1]=' ' }
+//   }
+//   if score<0 {return "Left side wins!"}
+//   if score==0 {return "Let's fight again!"}
+//   return "Right side wins!"
+// }
