@@ -18,5 +18,8 @@ func main() {
 	// fmt.Println(kata.DeadAntCount("ant anantt aantnt"))
 	// fmt.Println(kata.SpinWords("Hey fellow warriors"))
 	// fmt.Println(kata.CountFindNum([]int{2, 5}, 200))
-	fmt.Println(kata.IsValidWalk([]rune{'e', 'e', 'e', 'e', 'w', 'w', 's', 's', 's', 's'}))
+	// fmt.Println(kata.IsValidWalk([]rune{'e', 'e', 'e', 'e', 'w', 'w', 's', 's', 's', 's'}))
+	fmt.Println(kata.AlphabetWar("z*ps*w*mmwm*p*z*m"))
 }
+
+// Left side wins!
