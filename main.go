@@ -20,7 +20,8 @@ func main() {
 	// fmt.Println(kata.CountFindNum([]int{2, 5}, 200))
 	// fmt.Println(kata.IsValidWalk([]rune{'e', 'e', 'e', 'e', 'w', 'w', 's', 's', 's', 's'}))
 	// fmt.Println(kata.AlphabetWar("z*ps*w*mmwm*p*z*m"))
-	fmt.Println(kata.FindEvenIndex([]int{0, 0, 0, 0, 0}))
+	// fmt.Println(kata.FindEvenIndex([]int{0, 0, 0, 0, 0}))
+	fmt.Println(kata.SplitAndAdd([]int{1, 2, 3, 4, 5, 6, 7}, 2))
 }
 
 // Left side wins!
