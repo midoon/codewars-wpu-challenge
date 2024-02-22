@@ -22,7 +22,8 @@ func main() {
 	// fmt.Println(kata.AlphabetWar("z*ps*w*mmwm*p*z*m"))
 	// fmt.Println(kata.FindEvenIndex([]int{0, 0, 0, 0, 0}))
 	// fmt.Println(kata.SplitAndAdd([]int{1, 2, 3, 4, 5, 6, 7}, 2))
-	fmt.Println(kata.DigitalRoot(1234))
+	// fmt.Println(kata.DigitalRoot(1234))
+	fmt.Println(kata.ArrayDiff([]int{1, 2, 3}, []int{1, 2}))
 }
 
 // Left side wins!
