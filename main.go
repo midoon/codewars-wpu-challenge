@@ -24,7 +24,7 @@ func main() {
 	// fmt.Println(kata.SplitAndAdd([]int{1, 2, 3, 4, 5, 6, 7}, 2))
 	// fmt.Println(kata.DigitalRoot(1234))
 	// fmt.Println(kata.ArrayDiff([]int{1, 2, 3}, []int{1, 2}))
-	fmt.Println(kata.CountBits(10))
+	fmt.Println(kata.MaximumSubarraySum([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 }
 
 // Left side wins!
