@@ -25,7 +25,8 @@ func main() {
 	// fmt.Println(kata.DigitalRoot(1234))
 	// fmt.Println(kata.ArrayDiff([]int{1, 2, 3}, []int{1, 2}))
 	// fmt.Println(kata.MaximumSubarraySum([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
-	fmt.Println(kata.FirstNonRepeating("sTreSS"))
+	// fmt.Println(kata.FirstNonRepeating("sTreSS"))
+	fmt.Println(kata.Zeros(12))
 }
 
 // Left side wins!
