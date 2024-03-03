@@ -26,7 +26,8 @@ func main() {
 	// fmt.Println(kata.ArrayDiff([]int{1, 2, 3}, []int{1, 2}))
 	// fmt.Println(kata.MaximumSubarraySum([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 	// fmt.Println(kata.FirstNonRepeating("sTreSS"))
-	fmt.Println(kata.Zeros(12))
+	// fmt.Println(kata.Zeros(12))
+	fmt.Println(kata.Cakes(map[string]int{"flour": 500, "sugar": 200, "eggs": 1}, map[string]int{"flour": 1200, "sugar": 1200, "eggs": 5, "milk": 200}))
 }
 
 // Left side wins!
