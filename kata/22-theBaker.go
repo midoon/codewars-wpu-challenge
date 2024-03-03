@@ -35,11 +35,21 @@ package kata
 // }
 
 func Cakes(recipe, available map[string]int) int {
-	var least int = 1e9
-	for material, need := range recipe {
-		if available[material]/need < least {
-			least = available[material] / need
+	for k, v := range recipe {
+		available[k] -= v
+		if 0 > available[k] {
+			return 0
 		}
 	}
-	return least
+	return 1 + Cakes(recipe, available)
 }
+
+// func Cakes(recipe, available map[string]int) int {
+// 	var least int = 1e9
+// 	for material, need := range recipe {
+// 		if available[material]/need < least {
+// 			least = available[material] / need
+// 		}
+// 	}
+// 	return least
+// }
