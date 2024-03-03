@@ -30,7 +30,6 @@ package kata
 // 			}
 // 		}
 // 		cake++
-
 // 	}
 // 	return cake
 // }
