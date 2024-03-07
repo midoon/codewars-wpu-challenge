@@ -28,7 +28,8 @@ func main() {
 	// fmt.Println(kata.FirstNonRepeating("sTreSS"))
 	// fmt.Println(kata.Zeros(12))
 	// fmt.Println(kata.Cakes(map[string]int{"flour": 500, "sugar": 200, "eggs": 1}, map[string]int{"flour": 1200, "sugar": 1200, "eggs": 5, "milk": 200}))
-	fmt.Println(kata.BestMatch([]int{1, 2, 3, 4, 5}, []int{0, 1, 2, 3, 4}))
+	// fmt.Println(kata.BestMatch([]int{1, 2, 3, 4, 5}, []int{0, 1, 2, 3, 4}))
+	fmt.Println(kata.FindUniq([]float32{1.0, 1.0, 1.0, 2.0, 1.0, 1.0}))
 }
 
 // Left side wins!
